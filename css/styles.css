@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero block*/
+#hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* About drons info */
+#about h2 {
+    margin-bottom: 20px;
+}
+
+/* Products */
+#products {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.product {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product h3 {
+    margin-top: 0;
+}
+
+.product p {
+    color: #777;
+}
+
+/* Contacts */
+#contact {
+    padding: 50px 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
